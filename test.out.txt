@@ -1,0 +1,27 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\Varshavskaya\PycharmProjects\pythonProject_Unit31\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.0', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '6.2.5', 'pluggy': '1.0.0'}, 'Plugins': {'base-url': '2.0.0', 'html': '3.2.0', 'metadata': '2.0.4', 'selenium': '4.0.0', 'variables': '2.0.0'}, 'Base URL': '', 'Driver': 'Chrome', 'Capabilities': {}}
+driver: Chrome
+sensitiveurl: .*
+rootdir: C:\Users\Varshavskaya
+plugins: base-url-2.0.0, html-3.2.0, metadata-2.0.4, selenium-4.0.0, variables-2.0.0
+collecting ... collected 1 item
+
+..\..\Authorization on the site PASSED                                   [100%]
+
+============================== warnings summary ===============================
+Authorization on the site
+  C:\Users\Varshavskaya\PycharmProjects\pythonProject_Unit31\venv\Lib\site-packages\pytest_selenium\pytest_selenium.py:208: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+    driver = driver_class(**driver_kwargs)
+
+Authorization on the site
+  C:\Users\Varshavskaya\PycharmProjects\pythonProject_Unit31\venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py:80: DeprecationWarning: desired_capabilities has been deprecated, please pass in a Service object
+    super().__init__(
+
+Authorization on the site
+  C:\Users\Varshavskaya\PycharmProjects\pythonProject_Unit31\venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py:80: DeprecationWarning: service_log_path has been deprecated, please pass in a Service object
+    super().__init__(
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 1 passed, 3 warnings in 9.05s ========================
